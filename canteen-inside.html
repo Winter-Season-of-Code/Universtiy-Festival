@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Canteen</title>
+  <meta name="description" content="Panorama — A-Frame">
+  <script src="aframe.min.js"></script>
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <a-scene antialias="false">
+    <a-entity>
+     <a-camera>
+       <a-cursor color="#4CC3D9"></a-cursor>
+     </a-camera>
+   </a-entity>
+   <!--Sky-->
+   <a-assets>
+    <img id="sky" src="canteen-inside.jpg">
+  </a-assets>
+  <a-sky src="#sky"></a-sky>
+</a-scene>
+</body>
+</html>
